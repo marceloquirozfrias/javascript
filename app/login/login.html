@@ -1,0 +1,24 @@
+<div>
+	<h4 class="modal-title">{{title}}</h4>
+</div>
+<div class="col-xs-12 alert alert-danger" ng-show="err">
+	<p>{{errMsg}}</p>
+</div>
+<div >
+	<form class="form-horizontal" role="form">
+		<div class="form-group">
+			<label for="inputlogigalName" class="col-xs-2 control-label">Username:</label>
+			<div class="col-xs-10 col-md-4 controls">
+				<input type="text" class="form-control" placeholder="username" ng-model="loginItem.username">
+			</div>
+			<label for="inputlogigalName" class="col-xs-2 control-label">Password:</label>
+			<div class="col-xs-10 col-md-4 controls">
+				<input type="password" class="form-control" placeholder="password" ng-model="loginItem.password">
+			</div>
+		</div>
+	</form>
+</div>
+<div class="modal-footer">
+	<a class="btn btn-default" ng-click="cancel()"><i class="glyphicon glyphicon-remove"></i>&nbsp;Leave</a>
+	<a class="btn btn-primary" ng-click="post()"><i class="glyphicon glyphicon-ok"></i>&nbsp;Save changes</a>
+</div>

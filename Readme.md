@@ -5,9 +5,9 @@
 This repo contains an example of AngularJS frontend consuming data from RestFul server.
 
 ## Purpose
-The main goal is to learn how to build an RESTful api with a simple token-based authentication and authorization mecanism running on a Node.js server.
+The main goal is to learn how to build an AngularJS CRUD app running in a master page (Single Page Application) in which there is a layer whose contents will change depending on the status of the application. Also presents the complexity of which in turn has a three-layer model, since it has presentation (Bootstrap, JQuery), business (Angularjs) and model (Restful Server).
 
-When a user sends his credentials, the Node.js server checks that they are correct and answers with a unique token built with the user informations.
+When a user sends his credentials, the backend server checks that they are correct and answers with a unique token built with the user informations.
 The endpoint is restricted to authenticated users, the server checks the validity of the token and returns the data if the token is valid or a status error code.
 
 ## Prerequisites

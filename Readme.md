@@ -52,7 +52,7 @@ All Node applications will start with a package.json file so let’s begin with 
 $ npm install
 ```
 
-Bower install too:
+Bower install too (look at .bowerrc and bower.json files):
 ```bash
 $ bower install
 ```
